@@ -1,14 +1,17 @@
+
+var module = "Este es mi modulo!";
+
 export default class myUtils{
-    constructor(){};
+    constructor(){   
+    };
 }
 
 export function validateWord(variable, palabra){
-//var module = Este es mi modulo!
-    if(palabra.includes(palabra)){
+
+    if(variable.includes(palabra)){
         return true;
-    }
+    };
     return false;
-}
-
-//export(validateWord, module);
-
+    }
+    
+//export {validateWord, module};
